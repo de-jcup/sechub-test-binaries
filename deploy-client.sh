@@ -27,6 +27,13 @@ function copyPlatform(){
 
 copyPlatform "linux-amd64"
 
+cd "$DEPLOY_DIR"
+
+git add --all
 git commit -m "new test client-version"
+
+echo "Commit done - Now showing status"
+git status
+
 git push
 
