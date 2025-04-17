@@ -35,5 +35,8 @@ git commit -m "new test client-version"
 echo "Commit done - Now showing status"
 git status
 
+echo "Deploy test client"
+echo "------------------"
+echo "current dir: $(pwd)"
 git push
 
